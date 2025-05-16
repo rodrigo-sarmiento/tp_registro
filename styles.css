@@ -1,1 +1,104 @@
+/* Fuente institucional moderna */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #f8f9fa;
+  color: #1a237e;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra superior */
+.navbar {
+  background: linear-gradient(90deg, #0288d1, #0277bd);
+  padding: 0.7rem 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #e3f2fd;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* Título principal */
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1a237e;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sección de carreras */
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Botones redes sociales */
+.social-buttons a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #1565c0;
+  transition: transform 0.3s;
+}
+
+.social-buttons a:hover {
+  transform: scale(1.1);
+  color: #0d47a1;
+}
+
+/* Footer */
+footer {
+  background-color: #263238;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}
 
